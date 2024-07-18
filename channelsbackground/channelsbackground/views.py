@@ -10,5 +10,5 @@ def home(request, template="home.html"):
     return render(
         request,
         template,
-        dict(),
+        {},
     )
